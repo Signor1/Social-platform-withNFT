@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-import "./MetaWeb.sol";
+import "./MetaWebNFT.sol";
 
 contract MetaWebFactory {
-    MetaWeb public nftContract;
+    MetaWebNFT public nftContract;
 
     uint256 public nextTokenId = 1;
 
@@ -15,7 +15,7 @@ contract MetaWebFactory {
     );
 
     constructor(address _nftContractAddress) {
-        nftContract = MetaWeb(_nftContractAddress);
+        nftContract = MetaWebNFT(_nftContractAddress);
     }
 
     function createNFT(
