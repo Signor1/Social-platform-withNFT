@@ -38,3 +38,9 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
+
+// MetaWebNFT deployed to 0x3BB80889A58951260f4C821733D34e64c955EB53
+// ----------------------------------------------------------------------
+// MetaWebFactory deployed to 0x14dF34CB7Ddda12c4607f5129Ef9fd6D223E21AA
+// ----------------------------------------------------------------------
+// MetaWebX deployed to 0x94434C0a47cB2a3E5e1614aB514EC5700aBF1605
