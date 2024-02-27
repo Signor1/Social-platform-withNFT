@@ -4,8 +4,8 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-contract SocialMeta is ERC721, ERC721URIStorage {
-    constructor() ERC721("Social Meta", "SMETA") {}
+contract MetaWeb is ERC721, ERC721URIStorage {
+    constructor() ERC721("Meta Web", "METAW") {}
 
     function mint(
         address _to,

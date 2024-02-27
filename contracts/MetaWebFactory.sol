@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
-import "./SocialMeta.sol";
+import "./MetaWeb.sol";
 
-contract SocialMetaFactory {
-    SocialMeta public nftContract;
+contract MetaWebFactory {
+    MetaWeb public nftContract;
 
     uint256 public nextTokenId = 1;
 
@@ -15,7 +15,7 @@ contract SocialMetaFactory {
     );
 
     constructor(address _nftContractAddress) {
-        nftContract = SocialMeta(_nftContractAddress);
+        nftContract = MetaWeb(_nftContractAddress);
     }
 
     function createNFT(
